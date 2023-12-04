@@ -34,7 +34,7 @@ body {
 
 .tabs-container {
   display: flex;
-  overflow: auto;
+  overflow: hidden;
   flex-direction: column;
 
   margin: 20px;
@@ -49,6 +49,7 @@ body {
 .tabs-container .tabs-btn {
   display: flex;
   flex-direction: row;
+  overflow: auto;
   justify-content: space-between;
 }
 .tabs-container .tabs-btn .btn {
