@@ -34,7 +34,7 @@ body {
 
 .tabs-container {
   display: flex;
-  overflow: hidden;
+  overflow: auto;
   flex-direction: column;
 
   margin: 20px;
