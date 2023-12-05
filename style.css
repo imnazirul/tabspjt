@@ -66,7 +66,9 @@ body {
 }
 .tabs-container .tabs-btn .btn.active {
   background-color: hotpink;
-  color: black;
+  color: white;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+
 }
 .tabs-container .tab-content {
   padding: 20px;
